@@ -1,0 +1,51 @@
+
+.label{
+    display: block;
+    margin: 7px 0px 5px 0px;
+}
+.inputBox{
+    width: 29.2rem;
+    height: 30px;
+    border: 1px solid rgb(0, 2, 0);
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.checkBox{
+    width: 30rem;
+    height: 30px;
+    border: 1px solid rgb(0, 2, 0);
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.termText{
+    display: inline;
+}
+.submit{
+    display: block !important;
+    margin-top: 10px !important;
+    width: 30rem;
+    height: 35px;
+    text-transform: capitalize !important;
+}
+.formPage{
+    padding: 90px 0px 40px 120px;
+}
+.supportHead{
+    display: grid;
+    gap: 7rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.formImage{
+    padding: 40px 0px 40px 0px;
+    width: 500px;
+    height: 400px;
+}
+.inputBox#inputBox,
+select.inputBox {
+    border-color: red;
+}
+p.errors{
+    padding-top: 5px;
+    color: red;
+}
